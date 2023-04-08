@@ -10,6 +10,7 @@ import { IJupyterWidgetRegistry, WidgetView } from '@jupyter-widgets/base';
 import { IThemeManager } from '@jupyterlab/apputils';
 
 import * as widgetExports from './datagrid';
+import * as paddywidget from './paddywidget';
 
 import { MODULE_NAME, MODULE_VERSION } from './version';
 
@@ -78,7 +79,8 @@ function activateWidgetExtension(
     name: MODULE_NAME,
     version: MODULE_VERSION,
     exports: {
-      ...widgetExports,
+	...widgetExports,
+	...paddywidget,
       DataGridView,
     },
   });

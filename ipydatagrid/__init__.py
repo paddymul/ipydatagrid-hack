@@ -10,6 +10,8 @@ from .cellrenderer import (
     TextRenderer,
     VegaExpr,
 )
+
+from .paddy_widget import PaddyWidget
 from .datagrid import DataGrid, SelectionHelper
 
 
@@ -30,6 +32,7 @@ def _jupyter_labextension_paths():
 
 __all__ = [
     "__version__",
+    "PaddyWidget",
     "BarRenderer",
     "CellRenderer",
     "Expr",
