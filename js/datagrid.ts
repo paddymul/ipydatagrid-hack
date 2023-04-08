@@ -42,6 +42,8 @@ type Dict<T> = { [keys: string]: T };
 
 export class DataGridModel extends DOMWidgetModel {
   defaults() {
+      alert("paddy wrote this")
+      console.log("paddy logged this")
     return {
       ...super.defaults(),
       _model_module: DataGridModel.model_module,

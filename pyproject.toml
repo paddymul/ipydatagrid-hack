@@ -6,12 +6,12 @@ requires = [
 build-backend = "hatchling.build"
 
 [project]
-name = "ipydatagrid"
+name = "paddy-ipydatagrid"
 description = "Fast Datagrid widget for the Jupyter Notebook and JupyterLab"
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [
-    { name = "Bloomberg" },
+    { name = "Paddy Mullen" },
 ]
 keywords = [
     "IPython",
