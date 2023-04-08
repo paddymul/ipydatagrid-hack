@@ -74,7 +74,10 @@
     "jest-environment-jsdom": "^28.1.3",
     "moment": "^2.24.0",
     "vega-expression": "^2.6.0",
-    "vega-functions": "^5.3.0"
+      "vega-functions": "^5.3.0",
+    "react-dom": "^18.0.0",
+    "react": "^18.0.0"
+      
   },
   "devDependencies": {
     "@babel/cli": "^7.6.3",
@@ -83,6 +86,8 @@
     "@babel/preset-typescript": "^7.6.0",
     "@jupyterlab/builder": "^3.0.1",
     "@types/jest": "^27.4.1",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "@types/node": "^10.11.6",
     "@types/webpack-env": "^1.13.6",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
@@ -155,7 +160,10 @@
       "@lumino/widgets": {
         "bundled": false,
         "singleton": true
-      }
+      },
+      "react":false,
+      "react-dom":false
+
     }
   }
 }
